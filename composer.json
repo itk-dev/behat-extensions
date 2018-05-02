@@ -1,0 +1,24 @@
+{
+    "name": "itk-dev/behat-extensions",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "behatch/contexts": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikkel Ricky",
+            "email": "rimi@aarhus.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ItkDev\\Behat\\": ""
+        }
+    },
+    "require-dev": {
+        "rpkamp/mailhog-behat-extension": "^0.3.5",
+        "php-http/curl-client": "^1.7"
+    }
+}
